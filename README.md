@@ -6,4 +6,7 @@ This is a simple docker container wrapper around https://www.npmjs.com/package/e
 
 For the simpliest example, just run:
 
-`echo "Hello {{NAME}}" | docker run -e NAME=world articulate/envhandlebars`
+```
+$ echo "Hello {{NAME}}" | docker run -i -e NAME=world articulate/envhandlebars
+Hello world
+```
